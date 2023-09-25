@@ -8,10 +8,8 @@ my @in=@ARGV;
 my @seen;
 my $count=0;
 for(0..@in-1){ #for each possible starting index
-    next if $seen[my $next=$_]++;
-    while($next < @in){
-        last if $seen[$next=$in[$next]]++;
-    }
+    $seen[my $next=$_]++;
+    1 while 0<=$next <@in && !$seen[$next=$in[$next]]++;
     ++$count if $next==$_;
 }
 say "@in -> $count";

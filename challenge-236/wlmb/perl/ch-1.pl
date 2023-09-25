@@ -1,8 +1,8 @@
 #!/usr/bin/env perl
 # Perl weekly challenge 236
-# Task 1:
+# Task 1: Exact Change
 #
-# See https://wlmb.github.io/2023/09/24/PWC236/#task-1-
+# See https://wlmb.github.io/2023/09/24/PWC236/#task-1-exact-change
 use v5.36;
 die <<~"FIN" unless @ARGV;
     Usage: $0 B1 [B2...]
