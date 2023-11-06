@@ -1,6 +1,11 @@
 {
+   "tooltip" : {
+      "shared" : 1,
+      "pointFormat" : "<span style=\"color:{series.color}\">{series.name}</span>: <b>{point.y}</b><br/>"
+   },
    "series" : [
       {
+         "name" : "Perl",
          "data" : [
             1,
             2,
@@ -13,7 +18,7 @@
             7,
             2,
             0,
-            446,
+            448,
             8,
             2,
             23,
@@ -26,16 +31,16 @@
             38,
             0,
             16,
-            50,
+            52,
             4,
             36,
-            1,
+            2,
             37,
             25
-         ],
-         "name" : "Perl"
+         ]
       },
       {
+         "name" : "Raku",
          "data" : [
             0,
             0,
@@ -67,10 +72,10 @@
             0,
             0,
             0
-         ],
-         "name" : "Raku"
+         ]
       },
       {
+         "name" : "Blog",
          "data" : [
             0,
             0,
@@ -102,13 +107,9 @@
             0,
             0,
             17
-         ],
-         "name" : "Blog"
+         ]
       }
    ],
-   "chart" : {
-      "type" : "column"
-   },
    "xAxis" : {
       "categories" : [
          "Jim Bacon",
@@ -143,25 +144,24 @@
          "Lance Wicks"
       ]
    },
-   "yAxis" : {
-      "title" : {
-         "text" : ""
-      },
-      "min" : 0
-   },
-   "tooltip" : {
-      "shared" : 1,
-      "pointFormat" : "<span style=\"color:{series.color}\">{series.name}</span>: <b>{point.y}</b><br/>"
-   },
-   "title" : {
-      "text" : "The Weekly Challenge [2019 - 2023]"
-   },
    "plotOptions" : {
       "column" : {
          "stacking" : "percent"
       }
    },
+   "title" : {
+      "text" : "The Weekly Challenge [2019 - 2023]"
+   },
    "subtitle" : {
-      "text" : "[Champions: 30] Last updated at 2023-10-30 00:02:37 GMT"
+      "text" : "[Champions: 30] Last updated at 2023-11-06 00:16:30 GMT"
+   },
+   "chart" : {
+      "type" : "column"
+   },
+   "yAxis" : {
+      "title" : {
+         "text" : ""
+      },
+      "min" : 0
    }
 }

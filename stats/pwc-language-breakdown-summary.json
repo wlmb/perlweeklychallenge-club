@@ -8,6 +8,43 @@
       },
       "type" : "category"
    },
+   "legend" : {
+      "enabled" : "false"
+   },
+   "tooltip" : {
+      "pointFormat" : "<b>{point.y:.0f}</b>"
+   },
+   "series" : [
+      {
+         "name" : "Contributions",
+         "data" : [
+            [
+               "Blog",
+               4145
+            ],
+            [
+               "Perl",
+               12437
+            ],
+            [
+               "Raku",
+               7174
+            ]
+         ],
+         "dataLabels" : {
+            "align" : "right",
+            "format" : "{point.y:.0f}",
+            "rotation" : -90,
+            "color" : "#FFFFFF",
+            "style" : {
+               "fontSize" : "13px",
+               "fontFamily" : "Verdana, sans-serif"
+            },
+            "y" : 10,
+            "enabled" : "true"
+         }
+      }
+   ],
    "yAxis" : {
       "min" : 0,
       "title" : {
@@ -17,45 +54,8 @@
    "chart" : {
       "type" : "column"
    },
-   "series" : [
-      {
-         "name" : "Contributions",
-         "dataLabels" : {
-            "style" : {
-               "fontSize" : "13px",
-               "fontFamily" : "Verdana, sans-serif"
-            },
-            "format" : "{point.y:.0f}",
-            "y" : 10,
-            "enabled" : "true",
-            "rotation" : -90,
-            "color" : "#FFFFFF",
-            "align" : "right"
-         },
-         "data" : [
-            [
-               "Blog",
-               4119
-            ],
-            [
-               "Perl",
-               12378
-            ],
-            [
-               "Raku",
-               7139
-            ]
-         ]
-      }
-   ],
    "subtitle" : {
-      "text" : "Last updated at 2023-10-30 00:02:37 GMT"
-   },
-   "legend" : {
-      "enabled" : "false"
-   },
-   "tooltip" : {
-      "pointFormat" : "<b>{point.y:.0f}</b>"
+      "text" : "Last updated at 2023-11-06 00:16:30 GMT"
    },
    "title" : {
       "text" : "The Weekly Challenge Contributions [2019 - 2023]"
