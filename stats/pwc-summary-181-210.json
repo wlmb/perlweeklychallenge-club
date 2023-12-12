@@ -1,19 +1,13 @@
 {
-   "title" : {
-      "text" : "The Weekly Challenge [2019 - 2023]"
-   },
-   "subtitle" : {
-      "text" : "[Champions: 30] Last updated at 2023-11-27 05:34:15 GMT"
-   },
    "tooltip" : {
       "shared" : 1,
       "pointFormat" : "<span style=\"color:{series.color}\">{series.name}</span>: <b>{point.y}</b><br/>"
    },
    "yAxis" : {
-      "min" : 0,
       "title" : {
          "text" : ""
-      }
+      },
+      "min" : 0
    },
    "xAxis" : {
       "categories" : [
@@ -57,6 +51,9 @@
    "chart" : {
       "type" : "column"
    },
+   "title" : {
+      "text" : "The Weekly Challenge [2019 - 2023]"
+   },
    "series" : [
       {
          "data" : [
@@ -71,22 +68,22 @@
             40,
             14,
             7,
-            8,
+            12,
             8,
             1,
-            273,
+            277,
             3,
             0,
             52,
             2,
-            0,
+            1,
             20,
             0,
             0,
             8,
-            36,
+            40,
             18,
-            446,
+            448,
             3,
             7,
             0
@@ -94,7 +91,6 @@
          "name" : "Perl"
       },
       {
-         "name" : "Raku",
          "data" : [
             0,
             0,
@@ -120,15 +116,17 @@
             0,
             28,
             0,
-            36,
+            40,
             0,
             0,
             0,
             0,
             0
-         ]
+         ],
+         "name" : "Raku"
       },
       {
+         "name" : "Blog",
          "data" : [
             0,
             0,
@@ -154,14 +152,16 @@
             0,
             0,
             0,
-            18,
+            20,
             0,
             0,
             1,
             0,
             0
-         ],
-         "name" : "Blog"
+         ]
       }
-   ]
+   ],
+   "subtitle" : {
+      "text" : "[Champions: 30] Last updated at 2023-12-11 03:24:28 GMT"
+   }
 }
