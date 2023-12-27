@@ -1,7 +1,22 @@
 {
+   "yAxis" : {
+      "title" : {
+         "text" : ""
+      },
+      "min" : 0
+   },
    "tooltip" : {
-      "pointFormat" : "<span style=\"color:{series.color}\">{series.name}</span>: <b>{point.y}</b><br/>",
-      "shared" : 1
+      "shared" : 1,
+      "pointFormat" : "<span style=\"color:{series.color}\">{series.name}</span>: <b>{point.y}</b><br/>"
+   },
+   "title" : {
+      "text" : "The Weekly Challenge [2019 - 2023]"
+   },
+   "subtitle" : {
+      "text" : "[Champions: 30] Last updated at 2023-12-27 11:21:12 GMT"
+   },
+   "chart" : {
+      "type" : "column"
    },
    "xAxis" : {
       "categories" : [
@@ -37,22 +52,10 @@
          "BarrOff"
       ]
    },
-   "yAxis" : {
-      "title" : {
-         "text" : ""
-      },
-      "min" : 0
-   },
    "plotOptions" : {
       "column" : {
          "stacking" : "percent"
       }
-   },
-   "chart" : {
-      "type" : "column"
-   },
-   "title" : {
-      "text" : "The Weekly Challenge [2019 - 2023]"
    },
    "series" : [
       {
@@ -64,7 +67,7 @@
             0,
             169,
             3,
-            336,
+            337,
             2,
             0,
             3,
@@ -72,7 +75,7 @@
             2,
             27,
             93,
-            105,
+            107,
             44,
             13,
             22,
@@ -83,14 +86,15 @@
             0,
             153,
             11,
-            404,
+            407,
             0,
             6,
             45,
-            31
+            33
          ]
       },
       {
+         "name" : "Raku",
          "data" : [
             0,
             0,
@@ -106,7 +110,7 @@
             0,
             0,
             4,
-            77,
+            79,
             9,
             21,
             0,
@@ -115,17 +119,17 @@
             0,
             0,
             2,
-            490,
+            496,
             0,
-            364,
+            367,
             0,
             0,
             0,
-            68
-         ],
-         "name" : "Raku"
+            70
+         ]
       },
       {
+         "name" : "Blog",
          "data" : [
             0,
             0,
@@ -141,7 +145,7 @@
             0,
             0,
             13,
-            19,
+            20,
             0,
             32,
             2,
@@ -150,18 +154,14 @@
             0,
             0,
             0,
-            245,
+            248,
             0,
             4,
             0,
             7,
             43,
             2
-         ],
-         "name" : "Blog"
+         ]
       }
-   ],
-   "subtitle" : {
-      "text" : "[Champions: 30] Last updated at 2023-12-11 03:24:28 GMT"
-   }
+   ]
 }

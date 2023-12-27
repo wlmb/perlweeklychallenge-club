@@ -1,122 +1,6 @@
 {
-   "series" : [
-      {
-         "name" : "Perl",
-         "data" : [
-            16,
-            22,
-            437,
-            17,
-            2,
-            0,
-            468,
-            0,
-            0,
-            0,
-            4,
-            1,
-            3,
-            42,
-            22,
-            1,
-            0,
-            8,
-            0,
-            0,
-            0,
-            4,
-            177,
-            0,
-            4,
-            78,
-            2,
-            6,
-            13,
-            12
-         ]
-      },
-      {
-         "name" : "Raku",
-         "data" : [
-            4,
-            0,
-            450,
-            0,
-            0,
-            10,
-            27,
-            340,
-            14,
-            4,
-            0,
-            1,
-            0,
-            0,
-            367,
-            1,
-            49,
-            91,
-            3,
-            2,
-            89,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0
-         ]
-      },
-      {
-         "data" : [
-            0,
-            0,
-            321,
-            0,
-            0,
-            0,
-            26,
-            684,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            2,
-            0,
-            29,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            36,
-            0,
-            0,
-            0,
-            0
-         ],
-         "name" : "Blog"
-      }
-   ],
-   "title" : {
-      "text" : "The Weekly Challenge [2019 - 2023]"
-   },
-   "subtitle" : {
-      "text" : "[Champions: 30] Last updated at 2023-12-11 03:24:28 GMT"
-   },
-   "yAxis" : {
-      "min" : 0,
-      "title" : {
-         "text" : ""
-      }
+   "chart" : {
+      "type" : "column"
    },
    "xAxis" : {
       "categories" : [
@@ -152,16 +36,132 @@
          "Maxim Nechaev"
       ]
    },
-   "tooltip" : {
-      "pointFormat" : "<span style=\"color:{series.color}\">{series.name}</span>: <b>{point.y}</b><br/>",
-      "shared" : 1
-   },
+   "series" : [
+      {
+         "name" : "Perl",
+         "data" : [
+            16,
+            22,
+            440,
+            17,
+            2,
+            0,
+            472,
+            0,
+            0,
+            0,
+            4,
+            1,
+            3,
+            42,
+            22,
+            1,
+            0,
+            8,
+            0,
+            0,
+            0,
+            4,
+            181,
+            0,
+            4,
+            78,
+            2,
+            6,
+            13,
+            12
+         ]
+      },
+      {
+         "data" : [
+            4,
+            0,
+            453,
+            0,
+            0,
+            10,
+            31,
+            344,
+            14,
+            4,
+            0,
+            1,
+            0,
+            0,
+            373,
+            1,
+            49,
+            91,
+            3,
+            2,
+            89,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+         ],
+         "name" : "Raku"
+      },
+      {
+         "name" : "Blog",
+         "data" : [
+            0,
+            0,
+            324,
+            0,
+            0,
+            0,
+            28,
+            700,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            29,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            36,
+            0,
+            0,
+            0,
+            0
+         ]
+      }
+   ],
    "plotOptions" : {
       "column" : {
          "stacking" : "percent"
       }
    },
-   "chart" : {
-      "type" : "column"
+   "yAxis" : {
+      "min" : 0,
+      "title" : {
+         "text" : ""
+      }
+   },
+   "subtitle" : {
+      "text" : "[Champions: 30] Last updated at 2023-12-27 11:21:12 GMT"
+   },
+   "title" : {
+      "text" : "The Weekly Challenge [2019 - 2023]"
+   },
+   "tooltip" : {
+      "shared" : 1,
+      "pointFormat" : "<span style=\"color:{series.color}\">{series.name}</span>: <b>{point.y}</b><br/>"
    }
 }
