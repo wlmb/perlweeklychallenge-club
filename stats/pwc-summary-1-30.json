@@ -1,23 +1,4 @@
 {
-   "yAxis" : {
-      "title" : {
-         "text" : ""
-      },
-      "min" : 0
-   },
-   "tooltip" : {
-      "shared" : 1,
-      "pointFormat" : "<span style=\"color:{series.color}\">{series.name}</span>: <b>{point.y}</b><br/>"
-   },
-   "title" : {
-      "text" : "The Weekly Challenge [2019 - 2023]"
-   },
-   "subtitle" : {
-      "text" : "[Champions: 30] Last updated at 2023-12-27 11:21:12 GMT"
-   },
-   "chart" : {
-      "type" : "column"
-   },
    "xAxis" : {
       "categories" : [
          "3ter",
@@ -52,14 +33,12 @@
          "BarrOff"
       ]
    },
-   "plotOptions" : {
-      "column" : {
-         "stacking" : "percent"
-      }
+   "tooltip" : {
+      "shared" : 1,
+      "pointFormat" : "<span style=\"color:{series.color}\">{series.name}</span>: <b>{point.y}</b><br/>"
    },
    "series" : [
       {
-         "name" : "Perl",
          "data" : [
             2,
             0,
@@ -75,7 +54,7 @@
             2,
             27,
             93,
-            107,
+            109,
             44,
             13,
             22,
@@ -86,15 +65,15 @@
             0,
             153,
             11,
-            407,
+            409,
             0,
             6,
             45,
             33
-         ]
+         ],
+         "name" : "Perl"
       },
       {
-         "name" : "Raku",
          "data" : [
             0,
             0,
@@ -121,15 +100,15 @@
             2,
             496,
             0,
-            367,
+            369,
             0,
             0,
             0,
-            70
-         ]
+            71
+         ],
+         "name" : "Raku"
       },
       {
-         "name" : "Blog",
          "data" : [
             0,
             0,
@@ -145,7 +124,7 @@
             0,
             0,
             13,
-            20,
+            21,
             0,
             32,
             2,
@@ -161,7 +140,28 @@
             7,
             43,
             2
-         ]
+         ],
+         "name" : "Blog"
       }
-   ]
+   ],
+   "plotOptions" : {
+      "column" : {
+         "stacking" : "percent"
+      }
+   },
+   "yAxis" : {
+      "title" : {
+         "text" : ""
+      },
+      "min" : 0
+   },
+   "title" : {
+      "text" : "The Weekly Challenge [2019 - 2023]"
+   },
+   "chart" : {
+      "type" : "column"
+   },
+   "subtitle" : {
+      "text" : "[Champions: 30] Last updated at 2024-01-01 14:40:53 GMT"
+   }
 }
